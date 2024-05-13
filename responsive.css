@@ -1,0 +1,489 @@
+/* media for tablets */
+
+@media only screen and (max-width:700px){
+  
+    section#hero {
+        div.hero.container-box {
+          div.hero-inner {
+            margin-top: 0vh;
+            grid-template-columns: 1fr 1fr;
+            div.white {
+              div.white-text {
+                margin: 10px;
+                div.job-desc {
+                  p {
+      
+                  }
+                }
+      
+                div.name {
+                  h1 {
+                    font-size: 3.5rem;
+                    br {
+      
+                    }
+                  }
+                }
+      
+                div.p-desc {
+                  p {
+      
+                  }
+                }
+      
+                div.hero-cta.cta {
+                  display: none;
+                  a {
+                    font-size: 1.1rem;
+                  }
+                }
+              }
+            }
+      
+            div.coloured {
+              width: 100%;
+              justify-self: flex-end;
+              overflow-x: hidden;
+              div.hero-img {
+                div.pp-img {
+                  img {
+                    transform: scale(0.8);
+                  }
+                }
+              }
+      
+              div.email {
+                margin-top: -30%;
+                padding: 10px;
+                height: max-content;
+                h3.label {
+                  strong {
+      
+                  }
+                }
+      
+                p.hero-info {
+      
+                }
+      
+                div.hero-socials {
+                  h3.label {
+                    strong {
+      
+                    }
+                  }
+      
+                  div.social-links {
+                    i.href {
+      
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      div.nav-cta.cta {
+        display: none;
+      }
+      .nav-bar-list{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .coloured-inner img{
+        transform: scale(0.6);
+      }
+
+
+
+      /* about section */
+
+
+      section#about {
+        div.about.container-box {
+          display: flex;
+          div.about-inner {
+            display: flex;
+            div.about-right {
+              div.about-image {
+                img {
+      
+                }
+              }
+            }
+      
+            div.about-left {
+              div.about-contents {
+                div.about-header {
+      
+                }
+      
+                div.about-title {
+      
+                }
+      
+                div.about-caption {
+      
+                }
+      
+                undefined {
+      
+                }
+      
+                div.about-desc {
+      
+                  span {
+      
+                  }
+      
+                  br {
+      
+                  }
+                }
+      
+                div{
+                  i{
+                    
+                  }
+                }
+      
+                a {
+                  div.cta {
+      
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      section#services {
+        div.services.container-box {
+          div.services-inner {
+            div.service-offer {
+              h1 {
+      
+              }
+            }
+      
+            div.services-cards {
+              div.service-card {
+                div.card-logo {
+      
+                }
+      
+                div.card-title {
+      
+                }
+      
+                div.card-tag {
+      
+                }
+      
+                div.card-desc {
+      
+                }
+      
+                div.card-cta {
+      
+                }
+              }
+            }
+          }
+        }
+      }
+    
+    }
+
+
+
+
+/* projects */
+
+
+
+
+
+/* media for phones */
+@media only screen and (max-width:640px){
+    section#hero {
+        div.hero.container-box {
+            justify-content: flex-start;
+            align-items: flex-start;
+          div.hero-inner {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-image: url(./images/pic..jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            div.white {
+              div.white-text {
+                z-index: 100;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin: 0px;
+                div.job-desc {
+                    margin-top: 20px;
+                  p {
+                    color: rgba(253, 154, 174, 0.975)
+                    ;
+                  }
+                }
+      
+                div.name {
+                  h1 {
+                    color: white;
+                    br {
+      
+                    }
+                  }
+                }
+      
+                div.p-desc {
+                  p {
+      
+                  }
+                }
+      
+                div.hero-cta.cta {
+                  display: flex;
+                    border: 2px solid var(--secondary-color);
+                  a {
+                    color: white;
+                  }
+                }
+              }
+            }
+      
+            div.coloured {
+                display: none;
+                margin-top: -30%;
+              div.hero-img {
+                  img {
+                       transform: scale(8);
+                  }
+              }
+      
+              div.email {
+                h3.label {
+                  strong {
+      
+                  }
+                }
+      
+                p.hero-info {
+      
+                }
+      
+                div.hero-socials {
+                  h3.label {
+                    strong {
+      
+                    }
+                  }
+      
+                  div.social-links {
+                    i.href {
+      
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+
+      #hero .hero-inner::after{
+        content: '';
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        opacity: .45;
+      }
+      .nav-bar-list{
+        display: flex;
+        justify-content: space-between;
+      }
+      div.nav-cta.cta{
+        display: none;
+      }
+      
+
+      /* about-section */
+      section#about {
+        div.about.container-box {
+          display: flex;
+          div.about-inner {
+            display: flex;
+            width: 90%;
+            flex-direction: column;
+            div.about-right {
+              div.about-image {
+                img {
+                  transform: scale(0.8);
+                }
+              }
+            }
+      
+            div.about-left {
+              div.about-contents {
+                div.about-header {
+                  font-size: 2rem;
+                  text-transform: capitalize;
+                  margin: 6px 0px;
+                  color: var(--secondary-color);
+                  font-weight: bold;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+      
+                div.about-title {
+                  letter-spacing: .01rem;
+                  font-weight: lighter;
+                  text-transform: uppercase;
+                  font-family: 'Courier New', Courier, monospace;
+                  font-size: 3rem;
+                }
+      
+                div.about-caption {
+      
+                }
+      
+                undefined {
+      
+                }
+      
+                div.about-desc {
+      
+                  span {
+      
+                  }
+      
+                  br {
+      
+                  }
+                }
+      
+                div{
+                  i{
+                    
+                  }
+                }
+      
+                a {
+                  div.cta {
+      
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      section#services {
+        div.services.container-box {
+          div.services-inner {
+            div.service-offer {
+              h1 {
+      
+              }
+            }
+      
+            div.services-cards {
+              div.service-card {
+                div.card-logo {
+      
+                }
+      
+                div.card-title {
+      
+                }
+      
+                div.card-tag {
+      
+                }
+      
+                div.card-desc {
+      
+                }
+      
+                div.card-cta {
+      
+                }
+              }
+            }
+          }
+        }
+      }
+
+
+      section#projects {
+        div.projects.container-box {
+          div.projects-inner {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 100%;
+            div.project-items {
+              display: flex;
+              min-width: 100%;
+              width: 100%;
+              gap: 20px;
+              flex-direction: column;
+              div.item:nth-child(even){
+                display: flex;
+                flex-direction: column;
+              }
+              div.item {
+                flex-direction: column;
+                max-height: 100%;
+                width: min-content;
+                border-radius: 5px;
+                div.item-img{
+                  width: 100%;
+                  img {
+                    height: auto;
+                    width: 100%;
+                  }
+                }
+      
+                div.project-info {
+                  width: 100%;
+                  padding: 10px;
+                  div.project-title {
+                    a {
+      
+                    }
+                  }
+      
+                  div.project-subtitle {
+      
+                  }
+      
+                  div.project-desc {
+      
+                  }
+      
+                  a {
+                    div.project-cta.cta {
+      
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
